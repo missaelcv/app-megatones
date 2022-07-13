@@ -22,12 +22,10 @@
     <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
-      bordered
-    >
+      bordered>
       <q-list>
         <q-item-label
-          header
-        >
+          header>
           Essential Links
         </q-item-label>
 
@@ -50,47 +48,65 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
+    title: 'Inicio',
     caption: 'quasar.dev',
     icon: 'school',
     link: 'https://quasar.dev'
   },
   {
-    title: 'Github',
+    title: 'Sobre Nosotros',
     caption: 'github.com/quasarframework',
     icon: 'code',
     link: 'https://github.com/quasarframework'
   },
   {
-    title: 'Discord Chat Channel',
+    title: 'Equipo',
     caption: 'chat.quasar.dev',
     icon: 'chat',
     link: 'https://chat.quasar.dev'
   },
   {
-    title: 'Forum',
+    title: 'Productos',
     caption: 'forum.quasar.dev',
     icon: 'record_voice_over',
     link: 'https://forum.quasar.dev'
   },
   {
-    title: 'Twitter',
+    title: 'Garantias',
     caption: '@quasarframework',
     icon: 'rss_feed',
     link: 'https://twitter.quasar.dev'
   },
   {
-    title: 'Facebook',
+    title: 'Faq',
     caption: '@QuasarFramework',
     icon: 'public',
     link: 'https://facebook.quasar.dev'
   },
   {
-    title: 'Quasar Awesome',
+    title: 'Soporte Tecnico',
     caption: 'Community Quasar projects',
     icon: 'favorite',
     link: 'https://awesome.quasar.dev'
-  }
+  },
+  {
+    title: 'Descargas',
+    caption: 'Community Quasar projects',
+    icon: 'favorite',
+    link: 'https://awesome.quasar.dev'
+  },
+  {
+    title: 'Tutoriales',
+    caption: 'Community Quasar projects',
+    icon: 'favorite',
+    link: 'https://awesome.quasar.dev'
+  },
+  {
+    title: 'Contacto',
+    caption: 'Community Quasar projects',
+    icon: 'favorite',
+    link: 'https://awesome.quasar.dev'
+  },
 ]
 
 import { defineComponent, ref } from 'vue'
